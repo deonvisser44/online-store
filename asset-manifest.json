@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/online-store/static/css/main.db3557cd.css",
+    "main.css": "/online-store/static/css/main.9bc135f2.css",
     "main.js": "/online-store/static/js/main.3f3c349c.js",
     "static/media/banner3.png": "/online-store/static/media/banner3.8d4f4fa8f819db1f3b6d.png",
     "static/media/greentick.png": "/online-store/static/media/greentick.b195d7488198810bf955.png",
     "index.html": "/online-store/index.html",
-    "main.db3557cd.css.map": "/online-store/static/css/main.db3557cd.css.map",
+    "main.9bc135f2.css.map": "/online-store/static/css/main.9bc135f2.css.map",
     "main.3f3c349c.js.map": "/online-store/static/js/main.3f3c349c.js.map"
   },
   "entrypoints": [
-    "static/css/main.db3557cd.css",
+    "static/css/main.9bc135f2.css",
     "static/js/main.3f3c349c.js"
   ]
 }
