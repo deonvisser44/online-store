@@ -25,11 +25,11 @@ function Navbar() {
   };
   return (
     <header className={classes.header}>
-      <Link to="/">
+      <Link to="/online-store">
         <h1>SNKRS.</h1>
       </Link>
       <div className={classes.nav}>
-        <Link to="/">
+        <Link to="/online-store">
           <p className={url === "/" ? classes.liActive : classes.li}>All</p>
         </Link>
         <Link to="/men">

@@ -12,7 +12,7 @@ function App() {
     <Fragment>
       <Layout>
         <Routes>
-          <Route path="/" element={<AllPage />} exact />
+          <Route path="/online-store" element={<AllPage />} exact />
 
           <Route path="/men" element={<MenPage />} />
 
