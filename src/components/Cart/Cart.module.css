@@ -14,7 +14,7 @@
  
     background-color: white;
     align-items: center;
-    z-index: 0;
+    z-index: 1;
     animation: slideCart 0.6s ease-in;
 }
 
@@ -123,7 +123,7 @@ p {
         position: absolute;
         background-color: white;
         align-items: center;
-        z-index: 0;
+        z-index: 1;
         animation: slideCart 0.6s ease-in;
     }
     
@@ -232,7 +232,7 @@ p {
         position: absolute;
         background-color: white;
         align-items: center;
-        z-index: 0;
+        z-index: 1;
         animation: slideCart 0.6s ease-in;
     }
     
@@ -341,7 +341,7 @@ p {
         position: absolute;
         background-color: white;
         align-items: center;
-        z-index: 0;
+        z-index: 1;
         animation: slideCart 0.6s ease-in;
     }
     
