@@ -6,6 +6,7 @@
     border-radius: 6px;
     overflow: auto;
     justify-self: center;
+    z-index: -1;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px){ 
@@ -16,6 +17,7 @@
         border-radius: 6px;
         overflow: auto;
         justify-self: center;
+        z-index: -1;
     }
  }
 
@@ -27,6 +29,7 @@
         border-radius: 6px;
         overflow: auto;
         justify-self: center;
+        z-index: -1;
     }
  }
 
@@ -38,5 +41,6 @@
         border-radius: 6px;
         overflow: auto;
         justify-self: center;
+        z-index: -1;
     }
  }

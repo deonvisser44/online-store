@@ -25,8 +25,8 @@ function Navbar() {
   };
   return (
     <header className={classes.header}>
-      <Link to='/'>
-      <h1>SNKRS.</h1>
+      <Link to="/">
+        <h1>SNKRS.</h1>
       </Link>
       <div className={classes.nav}>
         <Link to="/">

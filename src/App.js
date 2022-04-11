@@ -1,13 +1,11 @@
 import { Fragment } from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Layout from "./components/Layout/Layout";
 import AllPage from "./pages/AllPage";
 import MenPage from "./pages/MenPage";
 import WomenPage from "./pages/WomenPage";
 import OrderPage from "./pages/OrderPage";
 import ConfirmationPage from "./pages/ConfirmationPage";
-
-import "./App.css";
 
 function App() {
   return (
