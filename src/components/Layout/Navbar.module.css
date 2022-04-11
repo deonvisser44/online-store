@@ -1,0 +1,310 @@
+@media only screen and (min-width: 992px) {
+  .header {
+    width: 90%;
+    height: 8vh;
+    padding: 0 5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #000000;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+  }
+
+  .header h1 {
+    color: rgb(252, 252, 252);
+  }
+
+  .nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 30%;
+    color: white;
+  }
+
+  .nav a {
+    color: white;
+  }
+
+  .li {
+    color: white;
+    font-size: 1.5rem;
+  }
+
+  .liActive {
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: underline;
+  }
+
+  .liCart {
+    display: flex;
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 5px;
+    align-items: center;
+  }
+
+  .liCart:hover {
+    cursor: pointer;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .totalItems {
+    display: flex;
+    float: right;
+    width: 1.5rem;
+    justify-content: space-around;
+    margin: 0 0.5rem;
+    border: 1px solid white;
+    color: black;
+    background-color: white;
+    border-radius: 50%;
+    font-size: 1.1rem;
+    align-items: center;
+    padding-bottom: 2px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px){ 
+  .header {
+    width: 90%;
+    height: 8vh;
+    padding: 0 5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #000000;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+  }
+
+  .header h1 {
+    color: rgb(252, 252, 252);
+  }
+
+  .nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 45%;
+    color: white;
+  }
+
+  .nav a {
+    color: white;
+  }
+
+  .li {
+    color: white;
+    font-size: 1.5rem;
+    margin-left: 2rem;
+  }
+
+  .liActive {
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: underline;
+    margin-left: 2rem;
+  }
+
+  .liCart {
+    display: flex;
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 5px;
+    margin-left: 2rem;
+    align-items: center;
+  }
+
+  .liCart:hover {
+    cursor: pointer;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .totalItems {
+    display: flex;
+    float: right;
+    width: 1.5rem;
+    justify-content: space-around;
+    margin: 0 0.5rem;
+    border: 1px solid white;
+    color: black;
+    background-color: white;
+    border-radius: 50%;
+    font-size: 1.1rem;
+    align-items: center;
+    padding-bottom: 2px;
+  }
+
+ }
+
+ @media only screen and (min-width: 480px) and (max-width: 767px){ 
+  .header {
+    width: 90%;
+    height: 8vh;
+    padding: 0 5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #000000;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+  }
+
+  .header h1 {
+    color: rgb(252, 252, 252);
+  }
+
+  .nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+    color: white;
+  }
+
+  .nav a {
+    color: white;
+  }
+
+  .li {
+    color: white;
+    font-size: 1.5rem;
+    margin-left: 1.6rem;
+  }
+
+  .liActive {
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: underline;
+    margin-left: 1.6rem;
+  }
+
+  .liCart {
+    display: flex;
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 5px;
+    margin-left: 1.6rem;
+    align-items: center;
+  }
+
+  .liCart:hover {
+    cursor: pointer;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .totalItems {
+    display: flex;
+    float: right;
+    width: 1.5rem;
+    justify-content: space-around;
+    margin: 0 0.5rem;
+    border: 1px solid white;
+    color: black;
+    background-color: white;
+    border-radius: 50%;
+    font-size: 1.1rem;
+    align-items: center;
+    padding-bottom: 2px;
+  }
+  }
+
+  @media only screen and (min-width: 320px) and (max-width: 479px){ 
+    .header {
+      width: 90%;
+      height: 7vh;
+      padding: 0 5%;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      background-color: #000000;
+      position: fixed;
+      top: 0;
+      z-index: 1;
+    }
+  
+    .header h1 {
+      color: rgb(252, 252, 252);
+      font-size: 1.3rem;
+    }
+  
+    .nav {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      width: 70%;
+      color: white;
+    }
+  
+    .nav a {
+      color: white;
+    }
+  
+    .li {
+      color: white;
+      font-size: 1.2rem;
+      margin-left: 1.2rem;
+    }
+  
+    .liActive {
+      color: white;
+      font-size: 1.2rem;
+      text-decoration: underline;
+      margin-left: 1.2rem;
+    }
+  
+    .liCart {
+      display: flex;
+      color: white;
+      font-size: 1.2rem;
+      margin-top: 4px;
+      margin-left: 1.2rem;
+      align-items: center;
+    }
+  
+    .liCart:hover {
+      cursor: pointer;
+    }
+  
+    a {
+      text-decoration: none;
+    }
+  
+    .totalItems {
+      display: flex;
+      float: right;
+      width: 1.5rem;
+      justify-content: space-around;
+      margin: 0 0.5rem;
+      border: 1px solid white;
+      color: black;
+      background-color: white;
+      border-radius: 50%;
+      font-size: 1.1rem;
+      align-items: center;
+      padding-bottom: 2px;
+    }
+   }

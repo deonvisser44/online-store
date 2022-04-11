@@ -1,0 +1,223 @@
+@media only screen and (min-width: 992px) {
+  .filter {
+    width: fit-content;
+    height: fit-content;
+    background-color: white;
+    padding: 0 1% 0 1%;
+    margin: auto;
+    margin-top: 10vh;
+    z-index: 2;
+  }
+
+  .filter p {
+    display: none;
+  }
+
+  .filter ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-top: 7px;
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .li {
+    float: left;
+    margin-bottom: 0.5rem;
+    margin-left: 0.5rem;
+    font-weight: 400;
+    border: 2px solid rgb(138, 138, 138);
+    color: rgb(138, 138, 138);
+    border-radius: 20px;
+    width: fit-content;
+    padding: 0 10px;
+  }
+
+  .liSelected {
+    float: left;
+    margin-bottom: 0.5rem;
+    margin-left: 0.5rem;
+    font-weight: 400;
+    color: rgb(26, 165, 21);
+    border: 2px solid rgb(26, 165, 21);
+    border-radius: 20px;
+    width: fit-content;
+    padding: 0 10px;
+  }
+
+  .filter li:hover {
+    cursor: pointer;
+    color: rgb(26, 165, 21);
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .filter {
+    margin: auto;
+    margin-top: 9vh;
+    width: fit-content;
+    height: 4vh;
+    background-color: white;
+    padding: 5px 1% 0 1%;
+    z-index: 2;
+  }
+
+  .filter p {
+    display: none;
+  }
+
+  .filter ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-top: 3px;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .li {
+    float: left;
+    margin-bottom: 0.5rem;
+    margin-left: 0.5rem;
+    font-weight: 400;
+    border: 2px solid rgb(138, 138, 138);
+    color: rgb(138, 138, 138);
+    border-radius: 20px;
+    width: fit-content;
+    padding: 0 10px;
+  }
+
+  .liSelected {
+    float: left;
+    margin-bottom: 0.5rem;
+    margin-left: 0.5rem;
+    font-weight: 400;
+    color: rgb(26, 165, 21);
+    border: 2px solid rgb(26, 165, 21);
+    border-radius: 20px;
+    width: fit-content;
+    padding: 0 10px;
+  }
+
+  .filter li:hover {
+    cursor: pointer;
+    color: rgb(26, 165, 21);
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .filter {
+    margin: auto;
+    margin-top: 9vh;
+    width: fit-content;
+    height: 5vh;
+    background-color: white;
+    padding: 5px 1% 0 1%;
+    z-index: 2;
+  }
+
+  .filter p {
+    display: none;
+  }
+
+  .filter ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 1.1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .li {
+    float: left;
+    margin-bottom: 0.5rem;
+    margin-left: 0.5rem;
+    font-weight: 400;
+    border: 2px solid rgb(138, 138, 138);
+    color: rgb(138, 138, 138);
+    border-radius: 15px;
+    width: fit-content;
+    padding: 0 6px;
+  }
+
+  .liSelected {
+    float: left;
+    margin-bottom: 0.5rem;
+    margin-left: 0.5rem;
+    font-weight: 400;
+    color: rgb(26, 165, 21);
+    border: 2px solid rgb(26, 165, 21);
+    border-radius: 15px;
+    width: fit-content;
+    padding: 0 6px;
+  }
+
+  .filter li:hover {
+    cursor: pointer;
+    color: rgb(26, 165, 21);
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  .filter {
+    margin: auto;
+    margin-top: 7vh;
+    margin-bottom: 1rem;
+    width: fit-content;
+    height: 9vh;
+    background-color: white;
+    padding: 12px 1% 0 1%;
+    z-index: 2;
+  }
+
+  .filter p {
+    display: none;
+  }
+
+  .filter ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .li {
+    float: left;
+    margin: 0 0.3rem;
+    margin-bottom: 0.8rem;
+    font-weight: 400;
+    border: 2px solid rgb(138, 138, 138);
+    color: rgb(138, 138, 138);
+    border-radius: 15px;
+    width: fit-content;
+    padding: 0 6px;
+    align-self: center;
+  }
+
+  .liSelected {
+    float: left;
+    margin: 0 0.3rem;
+    margin-bottom: 0.8rem;
+    font-weight: 400;
+    color: rgb(26, 165, 21);
+    border: 2px solid rgb(26, 165, 21);
+    border-radius: 15px;
+    width: fit-content;
+    padding: 0 6px;
+    align-self: center;
+  }
+
+  .filter li:hover {
+    cursor: pointer;
+    color: rgb(26, 165, 21);
+  }
+}

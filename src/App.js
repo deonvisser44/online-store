@@ -1,24 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import { Fragment } from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Layout from "./components/Layout/Layout";
+import AllPage from "./pages/AllPage";
+import MenPage from "./pages/MenPage";
+import WomenPage from "./pages/WomenPage";
+import OrderPage from "./pages/OrderPage";
+import ConfirmationPage from "./pages/ConfirmationPage";
+
+import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Fragment>
+      <Layout>
+        <Routes>
+          <Route path="/" element={<AllPage />} exact />
+
+          <Route path="/men" element={<MenPage />} />
+
+          <Route path="/women" element={<WomenPage />} />
+
+          <Route path="/order" element={<OrderPage />} />
+
+          <Route path="/confirmed" element={<ConfirmationPage />} />
+        </Routes>
+      </Layout>
+    </Fragment>
   );
 }
 

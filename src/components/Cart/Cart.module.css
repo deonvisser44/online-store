@@ -1,0 +1,435 @@
+@media only screen and (min-width: 992px){ 
+.cart {
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    border-radius: 0 0 0 6px;
+    width: 22%;
+    height: auto;
+    padding-bottom: 5vh;
+    right: 0;
+    top: 8vh;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: white;
+    align-items: center;
+    z-index: 0;
+    animation: slideCart 0.6s ease-in;
+}
+
+@keyframes slideCart {
+    0%{
+        transform: skewX(0deg) translateX(500px);
+
+    }
+    100%{
+        transform: skew(0deg);
+    }
+}
+
+.emptyMessageHead {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.emptyMessage {
+    font-size: 1.5rem;
+    margin-top: 3rem;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+
+}
+
+p {
+    color: rgb(0, 0, 0);
+    margin: 0;
+}
+
+.cartList {
+    width: 85%;
+    height: auto;
+}
+
+.cartItem {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.summary {
+    width: 85%;
+    height: auto;
+}
+
+.summaryRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.sumItem {
+    font-size: 1.3rem;
+}
+
+.sumItemAmount {
+    font-size: 1.3rem;
+    color: rgb(26, 165, 21);
+}
+
+.size {
+    font-size: 1rem;
+    color: gray;
+}
+
+.line {
+    border-bottom: 1px solid black;
+}
+
+.continueButton {
+    width: 7rem;
+    height: 2.2rem;
+    font-size: 1rem;
+    border-radius: 6px;
+    margin-top: 2rem;
+    color: white;
+    background-color: black;
+    border: none;
+}
+
+.continueButton:hover{
+    cursor: pointer;
+}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px){ 
+    .cart {
+        border-left: 2px solid black;
+        border-bottom: 2px solid black;
+        border-radius: 0 0 0 6px;
+        width: 40%;
+        height: auto;
+        padding-bottom: 5vh;
+        right: 0;
+        top: 8vh;
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        background-color: white;
+        align-items: center;
+        z-index: 2;
+        animation: slideCart 0.6s ease-in;
+    }
+    
+    @keyframes slideCart {
+        0%{
+            transform: skewX(0deg) translateX(500px);
+    
+        }
+        100%{
+            transform: skew(0deg);
+        }
+    }
+    
+    .emptyMessageHead {
+        font-size: 1.5rem;
+        font-weight: 600;
+        margin-top: 3rem;
+        text-align: center;
+    }
+    
+    .emptyMessage {
+        font-size: 1.5rem;
+        margin-top: 3rem;
+        text-align: center;
+    }
+    
+    h2 {
+        text-align: center;
+    
+    }
+    
+    p {
+        color: rgb(0, 0, 0);
+        margin: 0;
+    }
+    
+    .cartList {
+        width: 85%;
+        height: auto;
+    }
+    
+    .cartItem {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .summary {
+        width: 85%;
+        height: auto;
+    }
+    
+    .summaryRow {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 1rem;
+    }
+    
+    .sumItem {
+        font-size: 1.3rem;
+    }
+    
+    .sumItemAmount {
+        font-size: 1.3rem;
+        color: rgb(26, 165, 21);
+    }
+    
+    .size {
+        font-size: 1rem;
+        color: gray;
+    }
+    
+    .line {
+        border-bottom: 1px solid black;
+    }
+    
+    .continueButton {
+        width: 7rem;
+        height: 2.2rem;
+        font-size: 1rem;
+        border-radius: 6px;
+        margin-top: 2rem;
+        color: white;
+        background-color: black;
+        border: none;
+    }
+    
+    .continueButton:hover{
+        cursor: pointer;
+    }
+ }
+
+ @media only screen and (min-width: 480px) and (max-width: 767px){ 
+    .cart {
+        border-left: 2px solid black;
+        border-bottom: 2px solid black;
+        border-radius: 0 0 0 6px;
+        width: 55%;
+        height: auto;
+        padding-bottom: 5vh;
+        right: 0;
+        top: 8vh;
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        background-color: white;
+        align-items: center;
+        z-index: 2;
+        animation: slideCart 0.6s ease-in;
+    }
+    
+    @keyframes slideCart {
+        0%{
+            transform: skewX(0deg) translateX(500px);
+    
+        }
+        100%{
+            transform: skew(0deg);
+        }
+    }
+    
+    .emptyMessageHead {
+        font-size: 1.5rem;
+        font-weight: 600;
+        margin-top: 3rem;
+        text-align: center;
+    }
+    
+    .emptyMessage {
+        font-size: 1.5rem;
+        margin-top: 3rem;
+        text-align: center;
+    }
+    
+    h2 {
+        text-align: center;
+    
+    }
+    
+    p {
+        color: rgb(0, 0, 0);
+        margin: 0;
+    }
+    
+    .cartList {
+        width: 85%;
+        height: auto;
+    }
+    
+    .cartItem {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .summary {
+        width: 85%;
+        height: auto;
+    }
+    
+    .summaryRow {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 1rem;
+    }
+    
+    .sumItem {
+        font-size: 1.3rem;
+    }
+    
+    .sumItemAmount {
+        font-size: 1.3rem;
+        color: rgb(26, 165, 21);
+    }
+    
+    .size {
+        font-size: 1rem;
+        color: gray;
+    }
+    
+    .line {
+        border-bottom: 1px solid black;
+    }
+    
+    .continueButton {
+        width: 7rem;
+        height: 2.2rem;
+        font-size: 1rem;
+        border-radius: 6px;
+        margin-top: 2rem;
+        color: white;
+        background-color: black;
+        border: none;
+    }
+    
+    .continueButton:hover{
+        cursor: pointer;
+    }
+ }
+
+ @media only screen and (min-width: 320px) and (max-width: 479px){ 
+    .cart {
+        border-left: 2px solid black;
+        border-bottom: 2px solid black;
+        border-radius: 0 0 0 6px;
+        width: 75%;
+        height: auto;
+        padding-bottom: 5vh;
+        right: 0;
+        top: 7vh;
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        background-color: white;
+        align-items: center;
+        z-index: 2;
+        animation: slideCart 0.6s ease-in;
+    }
+    
+    @keyframes slideCart {
+        0%{
+            transform: skewX(0deg) translateX(500px);
+    
+        }
+        100%{
+            transform: skew(0deg);
+        }
+    }
+    
+    .emptyMessageHead {
+        font-size: 1.5rem;
+        font-weight: 600;
+        margin-top: 3rem;
+        text-align: center;
+    }
+    
+    .emptyMessage {
+        font-size: 1.5rem;
+        margin-top: 3rem;
+        text-align: center;
+    }
+    
+    h2 {
+        text-align: center;
+    
+    }
+    
+    p {
+        color: rgb(0, 0, 0);
+        margin: 0;
+    }
+    
+    .cartList {
+        width: 85%;
+        height: auto;
+    }
+    
+    .cartItem {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .summary {
+        width: 85%;
+        height: auto;
+    }
+    
+    .summaryRow {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 1rem;
+    }
+    
+    .sumItem {
+        font-size: 1.3rem;
+    }
+    
+    .sumItemAmount {
+        font-size: 1.3rem;
+        color: rgb(26, 165, 21);
+    }
+    
+    .size {
+        font-size: 1rem;
+        color: gray;
+    }
+    
+    .line {
+        border-bottom: 1px solid black;
+    }
+    
+    .continueButton {
+        width: 7rem;
+        height: 2.2rem;
+        font-size: 1rem;
+        border-radius: 6px;
+        margin-top: 2rem;
+        color: white;
+        background-color: black;
+        border: none;
+    }
+    
+    .continueButton:hover{
+        cursor: pointer;
+    }
+ }

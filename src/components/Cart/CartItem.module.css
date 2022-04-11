@@ -1,0 +1,38 @@
+.cartItem {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1rem 0;
+    border-bottom: 1px solid black;
+}
+
+.price, .name {
+    font-size: 1.3rem;
+}
+
+.price{
+    color: rgb(26, 165, 21);
+}
+
+.size {
+    font-size: 1rem;
+    color: gray;
+}
+
+.color {
+    font-size: 1rem;
+
+}
+
+.removeButton {
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(250, 138, 64);
+    color: white;
+    padding: 2px 4px;
+}
+
+.removeButton:hover{
+    cursor: pointer;
+}

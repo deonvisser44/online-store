@@ -1,0 +1,27 @@
+.confirmation {
+    width: 80%;
+    height: 60vh;
+    margin: auto;
+    margin-top: 10vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    animation: fadeIn 3s;
+    -webkit-animation: fadeIn 3s;
+}
+
+.confirmation img {
+    width: 150px;
+    align-self: center;
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@-webkit-keyframes fadeIn {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
