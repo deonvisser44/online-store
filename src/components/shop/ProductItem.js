@@ -5,6 +5,8 @@ import { useDispatch, useSelector } from "react-redux";
 import { cartActions } from "../../store/Cart-slice";
 import { UIActions } from "../../store/UI-slice";
 
+import { RiArrowDownSLine } from "react-icons/ri";
+
 function ProductItem(props) {
   const dispatch = useDispatch();
 
@@ -74,7 +76,7 @@ function ProductItem(props) {
               showNotificationHandler();
             }}
           >
-            Add
+            Add +
           </button>
         </div>
       </div>

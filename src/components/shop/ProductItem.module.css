@@ -66,6 +66,10 @@
   width: 43%;
   height: 1.8rem;
   outline: none;
+  -webkit-appearance: none;
+  -moz-appearance:    none;
+  appearance:         none;   
+  text-align: center;  
 }
 
 .size:hover {
@@ -164,6 +168,10 @@
     height: 1.8rem;
     outline: none;
     font-size: 16px;
+    -webkit-appearance: none;
+    -moz-appearance:    none;
+    appearance:         none;   
+    text-align: center;  
   }
   
   .size:hover {
@@ -264,6 +272,10 @@
     width: 43%;
     height: 1.8rem;
     outline: none;
+    -webkit-appearance: none;
+    -moz-appearance:    none;
+    appearance:         none;   
+    text-align: center;  
   }
   
   .size:hover {
@@ -363,8 +375,15 @@
     height: 1.8rem;
     outline: none;
     font-size: 16px;
+    -webkit-appearance: none;
+   -moz-appearance:    none;
+   appearance:         none;   
+   text-align: center;  
   }
-  
+
+  .arrow {
+    color: black;
+  }
   .size:hover {
     cursor: pointer;
   }
