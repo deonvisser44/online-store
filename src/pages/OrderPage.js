@@ -61,6 +61,8 @@ function OrderPage() {
     ) {
       setConfirmEnabled(true);
       console.log("country changed");
+    } else {
+      setConfirmEnabled(false);
     }
   }, [country, city, street, postalCode, cardName, cardNumber, cvc, email]);
 
