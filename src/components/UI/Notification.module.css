@@ -8,6 +8,7 @@
     position: fixed;
     top: 14%;
     right: 3%;
+    z-index: 3;
     animation: slideNotification 0.6s ease-in;
   }
 
@@ -36,6 +37,7 @@
         position: fixed;
         top: 14%;
         right: 3%;
+        z-index: 3;
         animation: slideNotification 0.6s ease-in;
       }
     
@@ -64,6 +66,7 @@
         position: fixed;
         top: 16%;
         right: 3%;
+        z-index: 3;
         animation: slideNotification 0.6s ease-in;
       }
     

@@ -30,6 +30,7 @@
         width: 90%;
         height: 12rem;
         margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
         border-radius: 6px;
     }
 
@@ -41,5 +42,6 @@
         width: 90%;
         height: 10rem;
         border-radius: 6px;
+        margin-bottom: 0.5rem;
     }
  }

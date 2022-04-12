@@ -172,7 +172,11 @@ function OrderPage() {
           </div>
           <Link to="/confirmed">
             <button
-              className={confirmEnabled ? classes.confirmButton : classes.confirmButtonDisabled}
+              className={
+                confirmEnabled
+                  ? classes.confirmButton
+                  : classes.confirmButtonDisabled
+              }
               onClick={clearCartHandler}
               disabled={!confirmEnabled}
             >
@@ -207,11 +211,23 @@ function OrderPage() {
             <p className={classes.sumItem}>Shipping:</p>
             <p className={classes.sumItemAmount}>${delivery}</p>
           </div>
-          <div className={classes.line} />
-          <div className={classes.summaryRow}>
+          <div className={classes.summaryTotalRow}>
             <p className={classes.sumItem}>Total:</p>
             <p className={classes.sumItemAmount}>S{totalPrice}</p>
           </div>
+          <Link to="/confirmed">
+            <button
+              className={
+                confirmEnabled
+                  ? classes.confirmButtonTwo
+                  : classes.confirmButtonTwoDisabled
+              }
+              onClick={clearCartHandler}
+              disabled={!confirmEnabled}
+            >
+              Confirm
+            </button>
+          </Link>
         </div>
       </div>
     </div>

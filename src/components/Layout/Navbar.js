@@ -30,7 +30,7 @@ function Navbar() {
       </Link>
       <div className={classes.nav}>
         <Link to="/online-store">
-          <p className={url === "/" ? classes.liActive : classes.li}>All</p>
+          <p className={url === "/online-store" ? classes.liActive : classes.li}>All</p>
         </Link>
         <Link to="/men">
           <p className={url === "/men" ? classes.liActive : classes.li}>Men</p>

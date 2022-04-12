@@ -30,6 +30,7 @@
     width: 100%;
     justify-content: space-between;
     font-size: 1.3rem;
+    margin-bottom: 0.5rem;
 }
 
 .formUnit {
@@ -62,7 +63,7 @@
     border-radius: 6px;
     margin-top: 2rem;
     color: white;
-    background-color: black;
+    background-color: rgb(26, 165, 21);
     border: none;
 }
 
@@ -81,6 +82,13 @@
     border: none;
 }
 
+.confirmButtonTwo {
+    display: none;
+}
+
+.confirmButtonTwoDisabled {
+    display: none;
+}
 .cart {
     width: 30%;
     height: auto;
@@ -115,13 +123,28 @@ p {
 .summary {
     width: 85%;
     height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
 }
 
 .summaryRow {
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin-bottom: 1rem;
+}
+
+.summaryTotalRow {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    border-top: 1px solid black;
 }
 
 .sumItem {
@@ -253,6 +276,41 @@ p {
         background-color: white;
         align-items: center;
         margin-left: 0%;
+    }
+
+    .confirmButton {
+        display: none;
+    }
+    
+    .confirmButtonDisabled {
+        display: none;
+    }
+
+    .confirmButtonTwo {
+        display: block;
+        display: flex;
+        width: 9rem;
+        height: 2.2rem;
+        font-size: 1.2rem;
+        border-radius: 6px;
+        margin-top: 1rem;
+        color: white;
+        background-color: rgb(26, 165, 21);
+        border: none;
+    }
+
+    
+    .confirmButtonTwoDisabled {
+        display: block;
+        width: 9rem;
+        height: 2.2rem;
+        font-size: 1.2rem;
+        border-radius: 6px;
+        margin-top: 1rem;
+        color: white;
+        background-color: rgb(122, 122, 122);
+        border: none;
+        justify-items: center;
     }
  }
 

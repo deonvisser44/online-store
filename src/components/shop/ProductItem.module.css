@@ -163,6 +163,7 @@
     width: 43%;
     height: 1.8rem;
     outline: none;
+    font-size: 16px;
   }
   
   .size:hover {
@@ -176,6 +177,7 @@
     width: 43%;
     height: 1.8rem;
     color: white;
+    font-size: 16px;
   }
   
   .add {
@@ -185,6 +187,7 @@
     width: 43%;
     height: 1.8rem;
     color: white;
+    font-size: 16px;
   }
   
   .add:hover{
@@ -359,6 +362,7 @@
     width: 43%;
     height: 1.8rem;
     outline: none;
+    font-size: 16px;
   }
   
   .size:hover {
@@ -372,6 +376,7 @@
     width: 43%;
     height: 1.8rem;
     color: white;
+    font-size: 16px;
   }
   
   .add {
@@ -381,6 +386,7 @@
     width: 43%;
     height: 1.8rem;
     color: white;
+    font-size: 16px;
   }
   
   .add:hover{

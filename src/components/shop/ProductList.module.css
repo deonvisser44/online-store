@@ -35,7 +35,7 @@
 
  @media only screen and (min-width: 320px) and (max-width: 479px){ 
     .list {
-        width: 320px;
+        width: 90%;
         height: auto;
         margin: auto;
         border-radius: 6px;
