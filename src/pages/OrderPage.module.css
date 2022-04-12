@@ -46,6 +46,7 @@
     border-radius: 6px;
     background-color: rgb(224, 223, 223);
     outline: none;
+    font-size: 16px;
 }
 
 .invalidInput {
@@ -54,6 +55,7 @@
     border-radius: 6px;
     background-color: rgb(255, 200, 183);
     outline: none;
+    font-size: 16px;
 }
 
 .confirmButton {
@@ -288,15 +290,16 @@ p {
 
     .confirmButtonTwo {
         display: block;
-        display: flex;
         width: 9rem;
         height: 2.2rem;
         font-size: 1.2rem;
         border-radius: 6px;
         margin-top: 1rem;
+        margin-bottom: 2rem;
         color: white;
         background-color: rgb(26, 165, 21);
         border: none;
+        justify-items: center;
     }
 
     
@@ -307,6 +310,7 @@ p {
         font-size: 1.2rem;
         border-radius: 6px;
         margin-top: 1rem;
+        margin-bottom: 2rem;
         color: white;
         background-color: rgb(122, 122, 122);
         border: none;
