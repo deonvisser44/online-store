@@ -117,7 +117,7 @@ export const products = [
     price: 177,
     gender: "female",
     image:
-      "https://cdn.sneaktorious.com/_Resources/Persistent/d/c/7/3/dc73c41ee5e63c3287aa8db6ec9786f29339f293/New-Balance-550-White-Au-Lait-BBW550WA-Release-Date-Raffle-List-2-600x600.webp",
+      "https://i.postimg.cc/gcgcMztW/newbalance-removebg-preview.png",
   },
   {
     id: "p13",
