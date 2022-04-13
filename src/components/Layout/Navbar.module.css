@@ -62,17 +62,17 @@
 
   .totalItems {
     display: flex;
+    justify-content: center;
+    align-items: center;
     float: right;
     width: 1.5rem;
-    justify-content: space-around;
     margin: 0 0.5rem;
     border: 1px solid white;
     color: black;
     background-color: white;
     border-radius: 50%;
     font-size: 1.1rem;
-    align-items: center;
-    padding-bottom: 2px;
+    padding-bottom: 1px;
   }
 }
 
@@ -142,16 +142,15 @@
 
   .totalItems {
     display: flex;
-    float: right;
+    justify-content: center;
+    align-items: center;
     width: 1.5rem;
-    justify-content: space-around;
     margin: 0 0.5rem;
     border: 1px solid white;
     color: black;
     background-color: white;
     border-radius: 50%;
     font-size: 1.1rem;
-    align-items: center;
     padding-bottom: 2px;
   }
 
@@ -223,7 +222,8 @@
 
   .totalItems {
     display: flex;
-    float: right;
+    justify-content: center;
+    align-items: center;
     width: 1.5rem;
     justify-content: space-around;
     margin: 0 0.5rem;
@@ -233,7 +233,7 @@
     border-radius: 50%;
     font-size: 1.1rem;
     align-items: center;
-    padding-bottom: 2px;
+    padding-bottom: 1px;
   }
   }
 
@@ -304,7 +304,8 @@
   
     .totalItems {
       display: flex;
-      float: right;
+      justify-content: center;
+      align-items: center;
       width: 1.5rem;
       justify-content: space-around;
       margin: 0 0.5rem;
@@ -314,6 +315,6 @@
       border-radius: 50%;
       font-size: 1.1rem;
       align-items: center;
-      padding-bottom: 2px;
+      padding-bottom: 1px;
     }
    }

@@ -43,7 +43,7 @@ function Navbar() {
 
         <p className={classes.liCart} onClick={toggleCart}>
           <RiShoppingCartLine />
-          <span className={classes.totalItems}>{totalItems}</span>
+          <span className={classes.totalItems}><p>{totalItems}</p></span>
         </p>
       </div>
     </header>
