@@ -7,7 +7,7 @@ export const products = [
     price: 82,
     gender: "male",
     image:
-      "https://static.nike.com/a/images/t_prod_ss/w_960,c_limit,f_auto/gsuin11ptg5qgktmzoat/nike-air-force-1-low-triple-white.jpg",
+      "https://i.postimg.cc/vmgYfqNJ/custom-nike-air-force-1-low-by-you-shoe-removebg-preview.png",
   },
   {
     id: "p2",
@@ -23,11 +23,11 @@ export const products = [
     id: "p3",
     name: "Nike Dunk High",
     brand: 'nike',
-    color: "Championship Navy",
+    color: "Panda",
     price: 166,
     gender: "male",
     image:
-      "http://cdn.shopify.com/s/files/1/0492/0285/6096/products/NikeDunkhigh-ChampionshipNavy.jpg?v=1635314144",
+      "https://s3.amazonaws.com/images.kicksfinder.com/products/large/0d742fd3ea813729c411f80921fb5536_1619015304.jpeg",
   },
   {
     id: "p4",
