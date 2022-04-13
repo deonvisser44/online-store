@@ -27,7 +27,7 @@ export const products = [
     price: 166,
     gender: "male",
     image:
-      "https://s3.amazonaws.com/images.kicksfinder.com/products/large/0d742fd3ea813729c411f80921fb5536_1619015304.jpeg",
+      "https://i.postimg.cc/XqZkb0H2/dunks-panda-removebg-preview.png",
   },
   {
     id: "p4",
@@ -37,7 +37,7 @@ export const products = [
     price: 213,
     gender: "male",
     image:
-      "https://static.nike.com/a/images/t_prod_ss/w_960,c_limit,f_auto/ac66b4cc-3e1b-4744-b1b0-9116b29c0711/air-jordan-11-cool-grey-ct8012-005-release-date.jpg",
+      "https://i.postimg.cc/xjW41svk/air-jordan-11-retro-cool-grey-2021-CT8012-005-1-1350x1350-removebg-preview.png",
   },
   {
     id: "p5",
@@ -47,7 +47,7 @@ export const products = [
     price: 208,
     gender: "female",
     image:
-      "https://static.nike.com/a/images/t_prod_ss/w_960,c_limit,f_auto/899448ae-a589-4355-a669-445cc4ab170f/women-s-dunk-low-green-glow-release-date.jpg",
+      "https://i.postimg.cc/R0DTbFG3/nike-dunk-low-sneakers-green-glow-white-colorway-price-release-date-0-removebg-preview.png",
   },
   {
     id: "p6",
@@ -67,7 +67,7 @@ export const products = [
     price: 59,
     gender: "female",
     image:
-      "https://yesfootwear.shop/wp-content/uploads/2021/02/1-46.jpg",
+      "https://i.postimg.cc/sXW56Jv8/1-46-removebg-preview.png",
   },
   {
     id: "p8",
@@ -77,17 +77,17 @@ export const products = [
     price: 96,
     gender: "female",
     image:
-      "https://assets.adidas.com/images/w_600,f_auto,q_auto/4ab06e04f10940c5a661ad5600bc36a3_9366/Ultraboost_21_Shoes_Purple_S23843_06_standard.jpg",
+      "https://i.postimg.cc/4yds4WV2/Ultraboost-21-Shoes-Purple-S23843-06-standard-removebg-preview.png",
   },
   {
     id: "p9",
-    name: "Jordan 5",
+    name: "Jordan 5 Retro",
     brand: 'jordan',
-    color: "Retro Jade Horizon",
+    color: "Jade Horizon",
     price: 193,
     gender: "male",
     image:
-      "https://limitedresell.com/5146-large_default/air-jordan-5-retro-jade-horizon.jpg",
+      "https://i.postimg.cc/vmgYfqNJ/custom-nike-air-force-1-low-by-you-shoe-removebg-preview.png",
   },
   {
     id: "p10",
@@ -117,7 +117,7 @@ export const products = [
     price: 119,
     gender: "female",
     image:
-      "https://i.ebayimg.com/images/g/AssAAOSweclhfSrk/s-l400.jpg",
+      "https://i.postimg.cc/NfC70Lqd/new-balance-327-white-pink-haze-ws327lr-w900-removebg-preview.png",
   },
   {
     id: "p13",
@@ -177,7 +177,7 @@ export const products = [
     price: 180,
     gender: "male",
     image:
-      "https://yourkickz.store/wp-content/uploads/2022/03/Nike-dunk-low-two-tone-.jpeg",
+      "https://i.postimg.cc/N0C562Dn/Nike-dunk-low-two-tone-removebg-preview.png",
   },
   {
     id: "p19",
@@ -187,7 +187,7 @@ export const products = [
     price: 180,
     gender: "male",
     image:
-      "https://static.footshop.com/628957-full_product/188392.jpg",
+      "https://i.postimg.cc/9FgKjWxh/188392-removebg-preview.png",
   },
 
 
