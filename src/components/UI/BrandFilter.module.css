@@ -1,54 +1,65 @@
 @media only screen and (min-width: 992px) {
   .filter {
     width: fit-content;
-    height: fit-content;
+    height: 4vh;
     background-color: white;
     padding: 0 1% 0 1%;
     margin: auto;
     margin-top: 10vh;
+    margin-bottom: 3vh;
     z-index: 2;
   }
 
-  .filter p {
-    display: none;
-  }
 
-  .filter ul {
-    list-style: none;
+  .filterRow {
     margin: 0;
     padding: 0;
+    height: 100%;
     padding-top: 7px;
     font-size: 1.2rem;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
   }
 
   .li {
-    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
     margin-bottom: 0.5rem;
     margin-left: 0.5rem;
     font-weight: 400;
     border: 2px solid rgb(138, 138, 138);
-    color: rgb(138, 138, 138);
     border-radius: 20px;
     width: fit-content;
     padding: 0 10px;
   }
 
+  .li p{
+    color: rgb(138, 138, 138);
+  }
+
   .liSelected {
-    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
     margin-bottom: 0.5rem;
     margin-left: 0.5rem;
     font-weight: 400;
-    color: rgb(26, 165, 21);
     border: 2px solid rgb(26, 165, 21);
     border-radius: 20px;
     width: fit-content;
     padding: 0 10px;
   }
 
-  .filter li:hover {
+  .liSelected p {
+    color: rgb(26, 165, 21);
+  }
+
+  .li:hover, .liSelected {
     cursor: pointer;
     color: rgb(26, 165, 21);
   }
@@ -57,55 +68,62 @@
   .filter {
     margin: auto;
     margin-top: 9vh;
+    margin-bottom: 3vh;
     width: fit-content;
-    height: 4vh;
+    height: 3vh;
     background-color: white;
     padding: 5px 1% 0 1%;
     z-index: 2;
   }
 
-  .filter p {
-    display: none;
-  }
-
-  .filter ul {
-    list-style: none;
+  .filterRow {
     margin: 0;
     padding: 0;
-    padding-top: 3px;
-    font-size: 1.5rem;
+    padding-top: 7px;
+    font-size: 1.2rem;
+    height: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
   }
 
   .li {
-    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
     margin-bottom: 0.5rem;
     margin-left: 0.5rem;
     font-weight: 400;
     border: 2px solid rgb(138, 138, 138);
-    color: rgb(138, 138, 138);
     border-radius: 20px;
     width: fit-content;
     padding: 0 10px;
   }
 
+  .li p{
+    color: rgb(138, 138, 138);
+    font-size: 1.4rem;
+  }
+
   .liSelected {
-    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
     margin-bottom: 0.5rem;
     margin-left: 0.5rem;
     font-weight: 400;
-    color: rgb(26, 165, 21);
     border: 2px solid rgb(26, 165, 21);
     border-radius: 20px;
     width: fit-content;
     padding: 0 10px;
   }
 
-  .filter li:hover {
-    cursor: pointer;
+  .liSelected p {
     color: rgb(26, 165, 21);
+    font-size: 1.4rem;
   }
 }
 
@@ -113,54 +131,63 @@
   .filter {
     margin: auto;
     margin-top: 9vh;
+    margin-bottom: 2vh;
     width: fit-content;
-    height: 5vh;
+    height: 4vh;
     background-color: white;
     padding: 5px 1% 0 1%;
     z-index: 2;
   }
 
-  .filter p {
-    display: none;
-  }
-
-  .filter ul {
-    list-style: none;
+  .filterRow {
     margin: 0;
     padding: 0;
-    font-size: 1.1rem;
+    height: 100%;
+    padding-top: 7px;
+    font-size: 1.2rem;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
   }
 
   .li {
-    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
     margin-bottom: 0.5rem;
     margin-left: 0.5rem;
     font-weight: 400;
     border: 2px solid rgb(138, 138, 138);
-    color: rgb(138, 138, 138);
-    border-radius: 15px;
+    border-radius: 20px;
     width: fit-content;
-    padding: 0 6px;
+    padding: 0 10px;
+  }
+
+  .li p{
+    color: rgb(138, 138, 138);
+    font-size: 1rem;
   }
 
   .liSelected {
-    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
     margin-bottom: 0.5rem;
     margin-left: 0.5rem;
     font-weight: 400;
-    color: rgb(26, 165, 21);
     border: 2px solid rgb(26, 165, 21);
-    border-radius: 15px;
+    border-radius: 20px;
     width: fit-content;
-    padding: 0 6px;
+    padding: 0 10px;
   }
 
-  .filter li:hover {
-    cursor: pointer;
+  .liSelected p {
     color: rgb(26, 165, 21);
+    font-size: 1rem;
   }
 }
 
@@ -170,54 +197,62 @@
     margin-top: 7vh;
     margin-bottom: 1rem;
     width: fit-content;
-    height: 9vh;
+    height: 3vh;
     background-color: white;
     padding: 12px 1% 0 1%;
     z-index: 2;
   }
 
-  .filter p {
-    display: none;
-  }
-
-  .filter ul {
-    list-style: none;
+  .filterRow {
     margin: 0;
     padding: 0;
-    font-size: 1rem;
+    padding-top: 7px;
+    height: 100%;
+    font-size: 1.2rem;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
   }
 
   .li {
-    float: left;
-    margin: 0 0.3rem;
-    margin-bottom: 0.8rem;
-    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    flex-direction: column;
+    margin-bottom: 0.5rem;
+    margin-left: 0.3rem;
+    font-weight: 500;
     border: 2px solid rgb(138, 138, 138);
-    color: rgb(138, 138, 138);
-    border-radius: 15px;
+    border-radius: 20px;
     width: fit-content;
     padding: 0 6px;
-    align-self: center;
+  }
+
+  .li p{
+    color: rgb(138, 138, 138);
+    font-size: 0.8rem;
+    margin: 0;
+    padding: 0;
   }
 
   .liSelected {
-    float: left;
-    margin: 0 0.3rem;
-    margin-bottom: 0.8rem;
-    font-weight: 400;
-    color: rgb(26, 165, 21);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin-bottom: 0.5rem;
+    margin-left: 0.5rem;
+    font-weight: 500;
     border: 2px solid rgb(26, 165, 21);
-    border-radius: 15px;
+    border-radius: 20px;
     width: fit-content;
     padding: 0 6px;
-    align-self: center;
   }
 
-  .filter li:hover {
-    cursor: pointer;
+  .liSelected p {
     color: rgb(26, 165, 21);
+    font-size: 0.8rem;
   }
 }

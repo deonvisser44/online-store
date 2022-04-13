@@ -49,49 +49,48 @@ function BrandFilter() {
 
   return (
     <div className={classes.filter}>
-      <p>Shop by brand:</p>
-      <ul>
-        <li
+      <div className={classes.filterRow}>
+        <div
           className={allClass}
           onClick={() => {
             changeFilterBrandHandler("all");
           }}
         >
-          All brands
-        </li>
-        <li
+          <p>All brands</p>
+        </div>
+        <div
           className={adidasClass}
           onClick={() => {
             changeFilterBrandHandler("adidas");
           }}
         >
-          Adidas
-        </li>
-        <li
+          <p>Adidas</p>
+        </div>
+        <div
           className={nikeClass}
           onClick={() => {
             changeFilterBrandHandler("nike");
           }}
         >
-          Nike
-        </li>
-        <li
+          <p>Nike</p>
+        </div>
+        <div
           className={jordanClass}
           onClick={() => {
             changeFilterBrandHandler("jordan");
           }}
         >
-          Air Jordan
-        </li>
-        <li
+          <p>Air Jordan</p>
+        </div>
+        <div
           className={newBalanceClass}
           onClick={() => {
             changeFilterBrandHandler("newbalance");
           }}
         >
-          New Balance
-        </li>
-      </ul>
+          <p>New Balance</p>
+        </div>
+      </div>
     </div>
   );
 }
