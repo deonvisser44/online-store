@@ -1,6 +1,6 @@
 @media only screen and (min-width: 992px) {
   .filter {
-    width: fit-content;
+    width: 50%;
     height: 4vh;
     background-color: white;
     padding: 0 1% 0 1%;
@@ -29,7 +29,6 @@
     justify-content: center;
     height: 100%;
     margin-bottom: 0.5rem;
-    margin-left: 0.5rem;
     font-weight: 400;
     border: 2px solid rgb(138, 138, 138);
     border-radius: 20px;
@@ -47,7 +46,6 @@
     justify-content: center;
     height: 100%;
     margin-bottom: 0.5rem;
-    margin-left: 0.5rem;
     font-weight: 400;
     border: 2px solid rgb(26, 165, 21);
     border-radius: 20px;
@@ -69,7 +67,7 @@
     margin: auto;
     margin-top: 9vh;
     margin-bottom: 3vh;
-    width: fit-content;
+    width: 90%;
     height: 3vh;
     background-color: white;
     padding: 5px 1% 0 1%;
@@ -94,7 +92,6 @@
     justify-content: center;
     height: 100%;
     margin-bottom: 0.5rem;
-    margin-left: 0.5rem;
     font-weight: 400;
     border: 2px solid rgb(138, 138, 138);
     border-radius: 20px;
@@ -113,7 +110,6 @@
     justify-content: center;
     height: 100%;
     margin-bottom: 0.5rem;
-    margin-left: 0.5rem;
     font-weight: 400;
     border: 2px solid rgb(26, 165, 21);
     border-radius: 20px;
@@ -132,7 +128,7 @@
     margin: auto;
     margin-top: 9vh;
     margin-bottom: 2vh;
-    width: fit-content;
+    width: 95%;
     height: 4vh;
     background-color: white;
     padding: 5px 1% 0 1%;
@@ -157,7 +153,6 @@
     justify-content: center;
     height: 100%;
     margin-bottom: 0.5rem;
-    margin-left: 0.5rem;
     font-weight: 400;
     border: 2px solid rgb(138, 138, 138);
     border-radius: 20px;
@@ -177,7 +172,6 @@
     flex-direction: column;
     height: 100%;
     margin-bottom: 0.5rem;
-    margin-left: 0.5rem;
     font-weight: 400;
     border: 2px solid rgb(26, 165, 21);
     border-radius: 20px;
@@ -194,12 +188,12 @@
 @media only screen and (min-width: 320px) and (max-width: 479px) {
   .filter {
     margin: auto;
-    margin-top: 7vh;
+    margin-top: 8vh;
     margin-bottom: 1rem;
-    width: fit-content;
+    width: 95%;
     height: 3vh;
     background-color: white;
-    padding: 12px 1% 0 1%;
+    padding:0;
     z-index: 2;
   }
 
@@ -208,10 +202,11 @@
     padding: 0;
     padding-top: 7px;
     height: 100%;
+    width: 100%;
     font-size: 1.2rem;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
   }
 
@@ -222,7 +217,6 @@
     height: 100%;
     flex-direction: column;
     margin-bottom: 0.5rem;
-    margin-left: 0.3rem;
     font-weight: 500;
     border: 2px solid rgb(138, 138, 138);
     border-radius: 20px;
@@ -243,7 +237,6 @@
     justify-content: center;
     height: 100%;
     margin-bottom: 0.5rem;
-    margin-left: 0.5rem;
     font-weight: 500;
     border: 2px solid rgb(26, 165, 21);
     border-radius: 20px;

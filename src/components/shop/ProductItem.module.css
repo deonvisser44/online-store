@@ -70,6 +70,7 @@
   -moz-appearance:    none;
   appearance:         none;   
   text-align: center;  
+  color: rgb(117, 117, 117);
 }
 
 .size:hover {
@@ -171,11 +172,8 @@
     -webkit-appearance: none;
     -moz-appearance:    none;
     appearance:         none;   
-    text-align: center;  
-  }
-  
-  .size:hover {
-    cursor: pointer;
+    text-align: center; 
+    color: rgb(117, 117, 117); 
   }
   
   .addDisabled {
@@ -198,9 +196,6 @@
     font-size: 16px;
   }
   
-  .add:hover{
-    cursor: pointer;
-  }
 }
 
 @media only screen and (min-width: 480px) and (max-width: 767px){ 
@@ -275,11 +270,8 @@
     -webkit-appearance: none;
     -moz-appearance:    none;
     appearance:         none;   
-    text-align: center;  
-  }
-  
-  .size:hover {
-    cursor: pointer;
+    text-align: center; 
+    color: rgb(117, 117, 117); 
   }
   
   .addDisabled {
@@ -299,10 +291,7 @@
     height: 1.8rem;
     color: white;
   }
-  
-  .add:hover{
-    cursor: pointer;
-  }
+
 }
 
 @media only screen and (min-width: 320px) and (max-width: 479px){
@@ -378,14 +367,8 @@
     -webkit-appearance: none;
    -moz-appearance:    none;
    appearance:         none;   
-   text-align: center;  
-  }
-
-  .arrow {
-    color: black;
-  }
-  .size:hover {
-    cursor: pointer;
+   text-align: center; 
+   color: rgb(117, 117, 117); 
   }
   
   .addDisabled {
@@ -406,10 +389,6 @@
     height: 1.8rem;
     color: white;
     font-size: 16px;
-  }
-  
-  .add:hover{
-    cursor: pointer;
   }
 }
 

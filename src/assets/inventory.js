@@ -111,19 +111,19 @@ export const products = [
   },
   {
     id: "p12",
-    name: "New Balance 327",
+    name: "New Balance 550",
     brand: 'newbalance',
-    color: "White Pink Haze",
-    price: 119,
+    color: "Au Lait",
+    price: 177,
     gender: "female",
     image:
-      "https://i.postimg.cc/NfC70Lqd/new-balance-327-white-pink-haze-ws327lr-w900-removebg-preview.png",
+      "https://cdn.sneaktorious.com/_Resources/Persistent/d/c/7/3/dc73c41ee5e63c3287aa8db6ec9786f29339f293/New-Balance-550-White-Au-Lait-BBW550WA-Release-Date-Raffle-List-2-600x600.webp",
   },
   {
     id: "p13",
-    name: "New Balance 550 Aime Leon",
+    name: "New Balance 550",
     brand: 'newbalance',
-    color: "White Grey",
+    color: "Aime Leon",
     price: 343,
     gender: "male",
     image:
