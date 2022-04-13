@@ -4,6 +4,8 @@ import Cart from "../Cart/Cart";
 import Notification from "../UI/Notification";
 import BrandFilter from "../UI/BrandFilter";
 
+import classes from './Layout.module.css';
+
 import { useLocation } from "react-router-dom";
 
 import { useSelector, useDispatch } from "react-redux";

@@ -76,7 +76,7 @@ function ProductItem(props) {
               showNotificationHandler();
             }}
           >
-            Add +
+            Add
           </button>
         </div>
       </div>

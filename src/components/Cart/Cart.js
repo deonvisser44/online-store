@@ -19,8 +19,8 @@ function Cart() {
   };
 
   const hideFilterHandler = () => {
-    dispatch(UIActions.toggleFilterFalse())
-  }
+    dispatch(UIActions.toggleFilterFalse());
+  };
 
   let content = null;
 
@@ -29,7 +29,9 @@ function Cart() {
     content = (
       <>
         <p className={classes.emptyMessageHead}>Your cart is empty.</p>
-        <p className={classes.emptyMessage}>To add items, select your size and click the add button.</p>
+        <p className={classes.emptyMessage}>
+          To add items, select your size and click the add button.
+        </p>
       </>
     );
   } else {
@@ -66,7 +68,13 @@ function Cart() {
           </div>
         </div>
         <Link to="/order">
-          <button onClick={() => {hideCartHandler(); hideFilterHandler()} } className={classes.continueButton}>
+          <button
+            onClick={() => {
+              hideCartHandler();
+              hideFilterHandler();
+            }}
+            className={classes.continueButton}
+          >
             Continue
           </button>
         </Link>
@@ -74,7 +82,11 @@ function Cart() {
     );
   }
 
-  return <div className={classes.cart}>{content}</div>;
+  return (
+    <div className={classes.cart}>
+      {content}
+    </div>
+  );
 }
 
 export default Cart;
