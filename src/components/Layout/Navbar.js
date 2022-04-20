@@ -30,7 +30,17 @@ function Navbar() {
       </Link>
       <div className={classes.nav}>
         <Link to="/online-store">
-          <p className={url === "/online-store" ? classes.liActive : classes.li}>All</p>
+          <p
+            className={
+              url === "/online-store"
+                ? classes.liActive
+                : url === "/online-store/"
+                ? classes.liActive
+                : classes.li
+            }
+          >
+            All
+          </p>
         </Link>
         <Link to="/men">
           <p className={url === "/men" ? classes.liActive : classes.li}>Men</p>
@@ -43,7 +53,9 @@ function Navbar() {
 
         <p className={classes.liCart} onClick={toggleCart}>
           <RiShoppingCartLine />
-          <span className={classes.totalItems}><p>{totalItems}</p></span>
+          <span className={classes.totalItems}>
+            <>{totalItems}</>
+          </span>
         </p>
       </div>
     </header>
