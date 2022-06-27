@@ -4,7 +4,8 @@
     border-bottom: 3px solid rgb(26, 165, 21);
     border-radius: 0 0 0 12px;
     width: 22%;
-    height: 60vh;
+    height: fit-content;
+    max-height: 95vh;
     overflow-y: scroll;
     position: absolute;
     padding-bottom: 5vh;

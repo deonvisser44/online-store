@@ -1,16 +1,12 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import classes from "./ProductItem.module.css";
 
-import { useDispatch, useSelector } from "react-redux";
+import { useDispatch } from "react-redux";
 import { cartActions } from "../../store/Cart-slice";
 import { UIActions } from "../../store/UI-slice";
 
-import { RiArrowDownSLine } from "react-icons/ri";
-
 function ProductItem(props) {
   const dispatch = useDispatch();
-
-  const cartArray = useSelector((state) => state.cart.items);
 
   const [size, setSize] = useState();
   const [sizeAlreadyChosen, setSizeAlreadyChosen] = useState(false);
@@ -40,10 +36,6 @@ function ProductItem(props) {
     }, 2000)
     return () => clearTimeout(timer);
   }
-
-  useEffect(() => {
-    console.log(cartArray);
-  }, [cartArray]);
   return (
     <div className={classes.card}>
       <div className={classes.image}>

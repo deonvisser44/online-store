@@ -1,5 +1,4 @@
 import { createSlice } from "@reduxjs/toolkit";
-import { useId } from "react";
 
 const initialCartState = { cartVisible: false, items: [], totalItems: 0, totalPrice: 0, delivery: 0, subtotal: 0};
 

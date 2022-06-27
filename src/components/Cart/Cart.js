@@ -24,8 +24,7 @@ function Cart() {
 
   let content = null;
 
-  if (cartArray.length == 0) {
-    console.log("cart is empty");
+  if (cartArray.length === 0) {
     content = (
       <>
         <p className={classes.emptyMessageHead}>Your cart is empty.</p>
